@@ -1,0 +1,31 @@
+{
+ "Regions": [
+    "E",
+    "P",
+    "J",
+    "K"
+ ],
+ "Unk0": 1,
+ "Unk4": 1,
+ "LetterId": 0,
+ "UnkC": 0,
+ "Unk10": 0,
+ "ItemFile": "shopping_cart.bin",
+ "DesignFile": null,
+ "NpcFile": null,
+ "Paper": "ribbon",
+ "Letters": {
+  "UsEnglish": {
+   "Header": "Dear \n,",
+   "Body": "Whether you believe it's\nbetter to give than to\nreceive, it's that time of\nyear again. Here's a little\nsomething to get you into\nthe festive mood!",
+   "Footer": "RiiConnect24",
+   "Sender": "RiiConnect24"
+  },
+  "EuEnglish": {
+   "Header": "Dear \n,",
+   "Body": "Whether you believe it's\nbetter to give than to\nreceive, it's that time of\nyear again. Here's a little\nsomething to get you into\nthe festive mood!",
+   "Footer": "RiiConnect24",
+   "Sender": "RiiConnect24"
+  }
+ }
+}

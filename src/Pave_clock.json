@@ -1,0 +1,31 @@
+{
+ "Regions": [
+    "E",
+    "P",
+    "J",
+    "K"
+ ],
+ "Unk0": 1,
+ "Unk4": 1,
+ "LetterId": 0,
+ "UnkC": 0,
+ "Unk10": 0,
+ "ItemFile": "Pave_clock.bin",
+ "DesignFile": null,
+ "NpcFile": null,
+ "Paper": "polka_dot",
+ "Letters": {
+  "UsEnglish": {
+   "Header": "Dear \n,",
+   "Body": "Here's a very timely gift -\nit's a Pav\u00e9 clock! Don't\nforget to get into the\nspirit of Festivale on\n15 February to complete\nthe amazing Pav\u00e9 series!",
+   "Footer": "From Pav\u00e9",
+   "Sender": "RiiConnect24"
+  },
+  "EuEnglish": {
+   "Header": "Dear \n,",
+   "Body": "Here's a very timely gift -\nit's a Pav\u00e9 clock! Don't\nforget to get into the\nspirit of Festivale on\n15 February to complete\nthe amazing Pav\u00e9 series!",
+   "Footer": "From Pav\u00e9",
+   "Sender": "RiiConnect24"
+  }
+ }
+}

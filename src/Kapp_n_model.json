@@ -1,0 +1,31 @@
+{
+ "Regions": [
+    "E",
+    "P",
+    "J",
+    "K"
+ ],
+ "Unk0": 1,
+ "Unk4": 1,
+ "LetterId": 0,
+ "UnkC": 0,
+ "Unk10": 0,
+ "ItemFile": "Kapp_n_model.bin",
+ "DesignFile": null,
+ "NpcFile": null,
+ "Paper": "chinese",
+ "Letters": {
+  "UsEnglish": {
+   "Header": "Ahoy, \n!",
+   "Body": "Yar, answer me this, me\nwee little pirate fish... What\ngood be talkin' the talk if\nye ain't walkin' the walk?\nHere be some booty ye can\npretended ye blundered.\nGarrrrr!",
+   "Footer": "Kapp'n",
+   "Sender": "RiiConnect24"
+  },
+  "EuEnglish": {
+   "Header": "Ahoy, \n!",
+   "Body": "Yar, answer me this, me\nwee little pirate fish... What\ngood be talkin' the talk if\nye ain't walkin' the walk?\nHere be some booty ye can\npretended ye blundered.\nGarrrrr!",
+   "Footer": "Kapp'n",
+   "Sender": "RiiConnect24"
+  }
+ }
+}

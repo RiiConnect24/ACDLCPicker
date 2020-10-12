@@ -1,0 +1,31 @@
+{
+ "Regions": [
+    "E",
+    "P",
+    "J",
+    "K"
+ ],
+ "Unk0": 1,
+ "Unk4": 1,
+ "LetterId": 0,
+ "UnkC": 0,
+ "Unk10": 0,
+ "ItemFile": "egg_TV.bin",
+ "DesignFile": null,
+ "NpcFile": null,
+ "Paper": "rainbow",
+ "Letters": {
+  "UsEnglish": {
+   "Header": "Dear \n,",
+   "Body": "If your egg-style room\nlooked good before, it's\ngoing to be sp-egg-tacular\nwith this egg TV! Meet up\nwith me on 4 April for\neggstra fun items!",
+   "Footer": "From Zipper T. Bunny",
+   "Sender": "RiiConnect24"
+  },
+  "EuEnglish": {
+   "Header": "Dear \n,",
+   "Body": "If your egg-style room\nlooked good before, it's\ngoing to be sp-egg-tacular\nwith this egg TV! Meet up\nwith me on 4 April for\neggstra fun items!",
+   "Footer": "From Zipper T. Bunny",
+   "Sender": "RiiConnect24"
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "Regions": [
+    "E",
+    "P",
+    "J",
+    "K"
+ ],
+ "Unk0": 1,
+ "Unk4": 1,
+ "LetterId": 0,
+ "UnkC": 0,
+ "Unk10": 0,
+ "ItemFile": "hot_dog_hat.bin",
+ "DesignFile": null,
+ "NpcFile": null,
+ "Paper": "hamburger",
+ "Letters": {
+  "UsEnglish": {
+   "Header": "Dear \n,",
+   "Body": "It's the season for\nbarbecues and picnics, but\nthis item is for wearing,\nnot for eating. Hopefully it\nwill get you in the right\nspirit though!",
+   "Footer": "RiiConnect24",
+   "Sender": "RiiConnect24"
+  },
+  "EuEnglish": {
+   "Header": "Dear \n,",
+   "Body": "It's the season for\nbarbecues and picnics, but\nthis item is for wearing,\nnot for eating. Hopefully it\nwill get you in the right\nspirit though!",
+   "Footer": "RiiConnect24",
+   "Sender": "RiiConnect24"
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "Regions": [
+    "E",
+    "P",
+    "J",
+    "K"
+ ],
+ "Unk0": 1,
+ "Unk4": 1,
+ "LetterId": 0,
+ "UnkC": 0,
+ "Unk10": 0,
+ "ItemFile": "Chihuahua_model.bin",
+ "DesignFile": null,
+ "NpcFile": null,
+ "Paper": "polka_dot",
+ "Letters": {
+  "UsEnglish": {
+   "Header": "",
+   "Body": "",
+   "Footer": "",
+   "Sender": "RiiConnect24"
+  },
+  "EuEnglish": {
+   "Header": "",
+   "Body": "",
+   "Footer": "",
+   "Sender": "RiiConnect24"
+  }
+ }
+}

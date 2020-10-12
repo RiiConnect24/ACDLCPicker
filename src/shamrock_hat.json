@@ -1,0 +1,31 @@
+{
+ "Regions": [
+    "E",
+    "P",
+    "J",
+    "K"
+ ],
+ "Unk0": 1,
+ "Unk4": 1,
+ "LetterId": 0,
+ "UnkC": 0,
+ "Unk10": 0,
+ "ItemFile": "shamrock_hat.bin",
+ "DesignFile": null,
+ "NpcFile": null,
+ "Paper": "ribbon",
+ "Letters": {
+  "UsEnglish": {
+   "Header": "Dear \n,",
+   "Body": "We found this little\ntreasure hidden at the end\nof a rainbow. No promises,\nbut it should keep you safe\nfrom pinches.",
+   "Footer": "RiiConnect24",
+   "Sender": "RiiConnect24"
+  },
+  "EuEnglish": {
+   "Header": "Dear \n,",
+   "Body": "We found this little\ntreasure hidden at the end\nof a rainbow. No promises,\nbut it should keep you safe\nfrom pinches.",
+   "Footer": "RiiConnect24",
+   "Sender": "RiiConnect24"
+  }
+ }
+}

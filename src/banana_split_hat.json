@@ -1,0 +1,31 @@
+{
+ "Regions": [
+    "E",
+    "P",
+    "J",
+    "K"
+ ],
+ "Unk0": 1,
+ "Unk4": 1,
+ "LetterId": 0,
+ "UnkC": 0,
+ "Unk10": 0,
+ "ItemFile": "banana_split_hat.bin",
+ "DesignFile": null,
+ "NpcFile": null,
+ "Paper": "cloudy",
+ "Letters": {
+  "UsEnglish": {
+   "Header": "Dear \n,",
+   "Body": "If you scream for ice\ncream, we've got just the\naccessory for you! It's the\nonly banana split that\nwon't cause brain freeze!",
+   "Footer": "RiiConnect24",
+   "Sender": "RiiConnect24"
+  },
+  "EuEnglish": {
+   "Header": "Dear \n,",
+   "Body": "If you scream for ice\ncream, we've got just the\naccessory for you! It's the\nonly banana split that\nwon't cause brain freeze!",
+   "Footer": "RiiConnect24",
+   "Sender": "RiiConnect24"
+  }
+ }
+}

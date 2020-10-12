@@ -1,0 +1,31 @@
+{
+ "Regions": [
+    "E",
+    "P",
+    "J",
+    "K"
+ ],
+ "Unk0": 1,
+ "Unk4": 1,
+ "LetterId": 0,
+ "UnkC": 0,
+ "Unk10": 0,
+ "ItemFile": "wildflower_floor.bin",
+ "DesignFile": null,
+ "NpcFile": null,
+ "Paper": "polka_dot",
+ "Letters": {
+  "UsEnglish": {
+   "Header": "Dear \n,",
+   "Body": "It's time to shake off the\nwinter chills and celebrate\nthe start of spring. Here's\nsomething to help you bring\nthe outdoors indoors!",
+   "Footer": "RiiConnect24",
+   "Sender": "RiiConnect24"
+  },
+  "EuEnglish": {
+   "Header": "Dear \n,",
+   "Body": "It's time to shake off the\nwinter chills and celebrate\nthe start of spring. Here's\nsomething to help you bring\nthe outdoors indoors!",
+   "Footer": "RiiConnect24",
+   "Sender": "RiiConnect24"
+  }
+ }
+}

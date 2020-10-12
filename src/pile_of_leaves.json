@@ -1,0 +1,31 @@
+{
+ "Regions": [
+    "E",
+    "P",
+    "J",
+    "K"
+ ],
+ "Unk0": 1,
+ "Unk4": 1,
+ "LetterId": 0,
+ "UnkC": 0,
+ "Unk10": 0,
+ "ItemFile": "pile_of_leaves.bin",
+ "DesignFile": null,
+ "NpcFile": null,
+ "Paper": "maple_leaf",
+ "Letters": {
+  "UsEnglish": {
+   "Header": "Dear \n,",
+   "Body": "Autumn is finally here!\nThe air will start to get\ncrisper and soon the\nleaves will change colors\nand fall to the ground...\nor maybe they already\nhave?",
+   "Footer": "RiiConnect24",
+   "Sender": "RiiConnect24"
+  },
+  "EuEnglish": {
+   "Header": "Dear \n,",
+   "Body": "Autumn is finally here!\nThe air will start to get\ncrisper and soon the\nleaves will change colors\nand fall to the ground...\nor maybe they already\nhave?",
+   "Footer": "RiiConnect24",
+   "Sender": "RiiConnect24"
+  }
+ }
+}

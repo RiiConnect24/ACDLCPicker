@@ -1,0 +1,31 @@
+{
+ "Regions": [
+    "E",
+    "P",
+    "J",
+    "K"
+ ],
+ "Unk0": 1,
+ "Unk4": 1,
+ "LetterId": 0,
+ "UnkC": 0,
+ "Unk10": 0,
+ "ItemFile": "creepy_crystal.bin",
+ "DesignFile": null,
+ "NpcFile": null,
+ "Paper": "halloween",
+ "Letters": {
+  "UsEnglish": {
+   "Header": "Dear \n,",
+   "Body": "Gaze into the creepy\ncrystal and a vision\nemerges...of a frighteningly\nstylish house!",
+   "Footer": "From Jack",
+   "Sender": "RiiConnect24"
+  },
+  "EuEnglish": {
+   "Header": "Dear \n,",
+   "Body": "Gaze into the creepy\ncrystal and a vision\nemerges...of a frighteningly\nstylish house!",
+   "Footer": "From Jack",
+   "Sender": "RiiConnect24"
+  }
+ }
+}

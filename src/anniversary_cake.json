@@ -1,0 +1,31 @@
+{
+ "Regions": [
+  "E",
+  "P",
+  "J",
+  "K"
+ ],
+ "Unk0": 1,
+ "Unk4": 1,
+ "LetterId": 0,
+ "UnkC": 0,
+ "Unk10": 0,
+ "ItemFile": "anniversary_cake.bin",
+ "DesignFile": null,
+ "NpcFile": null,
+ "Paper": "bejeweled",
+ "Letters": {
+  "UsEnglish": {
+   "Header": "Dear \n,",
+   "Body": "Happy anniversary! You\nknow what's great about\nthis town? There's always\nsomething to celebrate\nand someone to celebrate with!\nTo friends old and new!",
+   "Footer": "RiiConnect24",
+   "Sender": "RiiConnect24"
+  },
+  "EuEnglish": {
+   "Header": "Dear \n,",
+   "Body": "Happy anniversary! You\nknow what's great about\nthis town? There's always\nsomething to celebrate\nand someone to celebrate with!\nTo friends old and new!",
+   "Footer": "RiiConnect24",
+   "Sender": "RiiConnect24"
+  }
+ }
+}

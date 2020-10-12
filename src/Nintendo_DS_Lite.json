@@ -1,0 +1,31 @@
+{
+ "Regions": [
+    "E",
+    "P",
+    "J",
+    "K"
+ ],
+ "Unk0": 1,
+ "Unk4": 1,
+ "LetterId": 0,
+ "UnkC": 0,
+ "Unk10": 0,
+ "ItemFile": "Nintendo_DS_Lite.bin",
+ "DesignFile": null,
+ "NpcFile": null,
+ "Paper": "buttercup",
+ "Letters": {
+  "UsEnglish": {
+   "Header": "Dear \n,",
+   "Body": "We can't believe it's been 4\nyears since the release of\nAnimal Crossing: Wild\nWorld on the Nintendo DS.\nI guess time really does fly\nwhen you're having fun!",
+   "Footer": "RiiConnect24",
+   "Sender": "RiiConnect24"
+  },
+  "EuEnglish": {
+   "Header": "Dear \n,",
+   "Body": "We can't believe it's been 4\nyears since the release of\nAnimal Crossing: Wild\nWorld on the Nintendo DS.\nI guess time really does fly\nwhen you're having fun!",
+   "Footer": "RiiConnect24",
+   "Sender": "RiiConnect24"
+  }
+ }
+}

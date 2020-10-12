@@ -1,0 +1,31 @@
+{
+ "Regions": [
+    "E",
+    "P",
+    "J",
+    "K"
+ ],
+ "Unk0": 1,
+ "Unk4": 1,
+ "LetterId": 0,
+ "UnkC": 0,
+ "Unk10": 0,
+ "ItemFile": "red_headgear.bin",
+ "DesignFile": null,
+ "NpcFile": null,
+ "Paper": "star",
+ "Letters": {
+  "UsEnglish": {
+   "Header": "Dear \n,",
+   "Body": "I've been training for my\ncomeback and I need your\nhelp! Wear my headgear\nwith pride so you can roll\nwith the punches!",
+   "Footer": "From Little Mac",
+   "Sender": "RiiConnect24"
+  },
+  "EuEnglish": {
+   "Header": "Dear \n,",
+   "Body": "I've been training for my\ncomeback and I need your\nhelp! Wear my headgear\nwith pride so you can roll\nwith the punches!",
+   "Footer": "From Little Mac",
+   "Sender": "RiiConnect24"
+  }
+ }
+}

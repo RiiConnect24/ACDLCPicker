@@ -1,0 +1,31 @@
+{
+ "Regions": [
+    "E",
+    "P",
+    "J",
+    "K"
+ ],
+ "Unk0": 1,
+ "Unk4": 1,
+ "LetterId": 0,
+ "UnkC": 0,
+ "Unk10": 0,
+ "ItemFile": "dachshund_model.bin",
+ "DesignFile": null,
+ "NpcFile": null,
+ "Paper": "elegant",
+ "Letters": {
+  "UsEnglish": {
+   "Header": "Dear \n,",
+   "Body": "This Dachshund puppy is\nready to meet its new\nowner. Take care of your\nlittle Nintendogs sausage\ndog and it's sure to be\na friend for life!",
+   "Footer": "RiiConnect24",
+   "Sender": "RiiConnect24"
+  },
+  "EuEnglish": {
+   "Header": "Dear \n,",
+   "Body": "This Dachshund puppy is\nready to meet its new\nowner. Take care of your\nlittle Nintendogs sausage\ndog and it's sure to be\na friend for life!",
+   "Footer": "RiiConnect24",
+   "Sender": "RiiConnect24"
+  }
+ }
+}

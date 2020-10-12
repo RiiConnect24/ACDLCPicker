@@ -1,0 +1,31 @@
+{
+ "Regions": [
+    "E",
+    "P",
+    "J",
+    "K"
+ ],
+ "Unk0": 1,
+ "Unk4": 1,
+ "LetterId": 0,
+ "UnkC": 0,
+ "Unk10": 0,
+ "ItemFile": "creepy_bat_stone.bin",
+ "DesignFile": null,
+ "NpcFile": null,
+ "Paper": "halloween",
+ "Letters": {
+  "UsEnglish": {
+   "Header": "Dear \n,",
+   "Body": "I'll admit that this creepy\nbat stone might not be\neveryone's cup of tea, but\nif you don't scare easily,\nthis imposing item could be\nright up your street!",
+   "Footer": "From Jack",
+   "Sender": "RiiConnect24"
+  },
+  "EuEnglish": {
+   "Header": "Dear \n,",
+   "Body": "I'll admit that this creepy\nbat stone might not be\neveryone's cup of tea, but\nif you don't scare easily,\nthis imposing item could be\nright up your street!",
+   "Footer": "From Jack",
+   "Sender": "RiiConnect24"
+  }
+ }
+}

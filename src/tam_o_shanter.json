@@ -1,0 +1,31 @@
+{
+ "Regions": [
+    "E",
+    "P",
+    "J",
+    "K"
+ ],
+ "Unk0": 1,
+ "Unk4": 1,
+ "LetterId": 0,
+ "UnkC": 0,
+ "Unk10": 0,
+ "ItemFile": "tam_o_shanter.bin",
+ "DesignFile": null,
+ "NpcFile": null,
+ "Paper": "plaid",
+ "Letters": {
+  "UsEnglish": {
+   "Header": "Dear \n,",
+   "Body": "Let your inner highlander\nloose and celebrate\nBurns Night with a\ntam o'shanter (Scottish\ntartan bonnet). Complete\nwith flame-red hair!",
+   "Footer": "From the Scottish Staff",
+   "Sender": "RiiConnect24"
+  },
+  "EuEnglish": {
+   "Header": "Dear \n,",
+   "Body": "Let your inner highlander\nloose and celebrate\nBurns Night with a\ntam o'shanter (Scottish\ntartan bonnet). Complete\nwith flame-red hair!",
+   "Footer": "From the Scottish Staff",
+   "Sender": "RiiConnect24"
+  }
+ }
+}

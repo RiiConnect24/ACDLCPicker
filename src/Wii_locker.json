@@ -1,0 +1,31 @@
+{
+ "Regions": [
+    "E",
+    "P",
+    "J",
+    "K"
+ ],
+ "Unk0": 1,
+ "Unk4": 1,
+ "LetterId": 0,
+ "UnkC": 0,
+ "Unk10": 0,
+ "ItemFile": "Wii_locker.bin",
+ "DesignFile": null,
+ "NpcFile": null,
+ "Paper": "cool",
+ "Letters": {
+  "UsEnglish": {
+   "Header": "Dear \n,",
+   "Body": "Celebrate the third\nanniversary of the global\nWii launch by decorating\nyour house with this\nimpressive Wii locker! Does\nit remind you of anything?",
+   "Footer": "RiiConnect24",
+   "Sender": "RiiConnect24"
+  },
+  "EuEnglish": {
+   "Header": "Dear \n,",
+   "Body": "Celebrate the third\nanniversary of the global\nWii launch by decorating\nyour house with this\nimpressive Wii locker! Does\nit remind you of anything?",
+   "Footer": "RiiConnect24",
+   "Sender": "RiiConnect24"
+  }
+ }
+}

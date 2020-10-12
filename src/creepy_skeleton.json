@@ -1,0 +1,31 @@
+{
+ "Regions": [
+    "E",
+    "P",
+    "J",
+    "K"
+ ],
+ "Unk0": 1,
+ "Unk4": 1,
+ "LetterId": 0,
+ "UnkC": 0,
+ "Unk10": 0,
+ "ItemFile": "creepy_skeleton.bin",
+ "DesignFile": null,
+ "NpcFile": null,
+ "Paper": "halloween",
+ "Letters": {
+  "UsEnglish": {
+   "Header": "Dear \n,",
+   "Body": "I always prefer to keep my\nskeletons out in the open\nrather than bundle them\nup in the closet. Here's a\nspare creepy skeleton just\nfor you, pumpkin!",
+   "Footer": "From Jack",
+   "Sender": "RiiConnect24"
+  },
+  "EuEnglish": {
+   "Header": "Dear \n,",
+   "Body": "I always prefer to keep my\nskeletons out in the open\nrather than bundle them\nup in the closet. Here's a\nspare creepy skeleton just\nfor you, pumpkin!",
+   "Footer": "From Jack",
+   "Sender": "RiiConnect24"
+  }
+ }
+}

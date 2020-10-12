@@ -1,0 +1,31 @@
+{
+ "Regions": [
+    "E",
+    "P",
+    "J",
+    "K"
+ ],
+ "Unk0": 1,
+ "Unk4": 1,
+ "LetterId": 0,
+ "UnkC": 0,
+ "Unk10": 0,
+ "ItemFile": "yellow_Pikmin_hat.bin",
+ "DesignFile": null,
+ "NpcFile": null,
+ "Paper": "flowery",
+ "Letters": {
+  "UsEnglish": {
+   "Header": "Dear \n,",
+   "Body": "Look what bloomed in\ncelebration of spring's\nbeginning\u2014a Pikmin hat!\nIt won't make you immune\nto fire, but hopefully it'll\nput a spring in your step!",
+   "Footer": "RiiConnect24",
+   "Sender": "RiiConnect24"
+  },
+  "EuEnglish": {
+   "Header": "Dear \n,",
+   "Body": "Look what bloomed in\ncelebration of spring's\nbeginning\u2014a Pikmin hat!\nIt won't make you immune\nto fire, but hopefully it'll\nput a spring in your step!",
+   "Footer": "RiiConnect24",
+   "Sender": "RiiConnect24"
+  }
+ }
+}
