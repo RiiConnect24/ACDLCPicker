@@ -62,26 +62,29 @@ items = ["anniversary_cake",
 #        "Mushroom_rack"]
 
 
-items_seasonal = {}
-
-items_seasonal[1] = ["snowman_head", "snowman_vanity"]
-items_seasonal[2] = ["Cupid_bench"]
-items_seasonal[3] = ["egg_TV", "shamrock_hat"]
-items_seasonal[4] = ["egg_TV"]
-items_seasonal[5] = []
-items_seasonal[6] = ["banana_split_hat", "hot_dog_hat", "sand_castle"]
-items_seasonal[7] = ["banana_split_hat", "hot_dog_hat", "sand_castle"]
-items_seasonal[8] = ["banana_split_hat", "hot_dog_hat", "sand_castle"]
-items_seasonal[9] = ["pile_of_leaves"]
-items_seasonal[10] = ["pile_of_leaves"]
-items_seasonal[11] = ["pile_of_leaves"]
-items_seasonal[12] = ["snowman_head", "snowman_vanity", "Jingle_TV", "festive_wreath"]
+items_seasonal = {
+    1: ["snowman_head", "snowman_vanity"],
+    2: ["Cupid_bench"],
+    3: ["egg_TV", "shamrock_hat"],
+    4: ["egg_TV"],
+    5: [],
+    6: ["banana_split_hat", "hot_dog_hat", "sand_castle"],
+    7: ["banana_split_hat", "hot_dog_hat", "sand_castle"],
+    8: ["banana_split_hat", "hot_dog_hat", "sand_castle"],
+    9: ["pile_of_leaves"],
+    10: ["pile_of_leaves"],
+    11: ["pile_of_leaves"],
+    12: ["snowman_head", "snowman_vanity", "Jingle_TV", "festive_wreath"],
+}
 
 def picker():
-    month = datetime.today().month
+    month = datetime.now().month
     items_all = items + items_seasonal[month]
-    choice = random.choices(items_all, weights=[1] * len(items) + [2] * len(items_seasonal[month]), k=1)[0]
-    return choice
+    return random.choices(
+        items_all,
+        weights=[1] * len(items) + [2] * len(items_seasonal[month]),
+        k=1,
+    )[0]
 
 if os.path.exists("dlc.pickle"):
     dlc_list = pickle.load(open("dlc.pickle", "rb"))
@@ -93,22 +96,23 @@ else:
     dlc_list = {}
     choice = picker()
     dlc_id = 1
-    
-print("The next DLC item will be: " + choice + "!")
-    
+
+print(f"The next DLC item will be: {choice}!")
+
 dlc_list[dlc_id] = choice
 pickle.dump(dlc_list, open("dlc.pickle", "wb"))
 acwc24.create(choice, False, 8192 + dlc_id)
 
-region2 = {}
-
-region2["E"] = "us"
-region2["P"] = "eu"
-region2["J"] = "jp"
-region2["K"] = "kr"
+region2 = {"E": "us", "P": "eu", "J": "jp", "K": "kr"}
 
 for region in ["E", "P", "J", "K"]:
-    subprocess.call(["mv", "build/" + choice + "_" + region + ".arc.wc24", "/var/www/wapp.wii.com/nwcs/public_html/ruu/rvforestdl_" + region2[region] + ".enc"])
+    subprocess.call(
+        [
+            "mv",
+            f"build/{choice}_{region}.arc.wc24",
+            f"/var/www/wapp.wii.com/nwcs/public_html/ruu/rvforestdl_{region2[region]}.enc",
+        ]
+    )
 
 dlc_message = "We are now distributing this item:\n\n" + choice + "\n\nEnjoy!"
 
