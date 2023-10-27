@@ -66,33 +66,30 @@ stationery = {
 }
 
 for k in sorted(stationery.keys()):
-    dic = {}
-    dic["Regions"] = ["All"]
-    dic["Unk0"] = 1
-    dic["Unk4"] = 1
-    dic["LetterId"] = 0
-    dic["UnkC"] = 0
-    dic["Unk10"] = 0
-    dic["ItemFile"] = k + ".bin"
-    dic["DesignFile"] = None
-    dic["NpcFile"] = None
-    dic["Paper"] = stationery[k]
-    dic["Letters"] = {}
-    dic["Letters"]["UsEnglish"] = {}
-    dic["Letters"]["UsEnglish"]["Header"] = ""
-    dic["Letters"]["UsEnglish"]["Body"] = ""
-    dic["Letters"]["UsEnglish"]["Footer"] = ""
-    dic["Letters"]["UsEnglish"]["Sender"] = ""
-    with open(k + ".txt", "r") as f:
+    dic = {
+        "Regions": ["All"],
+        "Unk0": 1,
+        "Unk4": 1,
+        "LetterId": 0,
+        "UnkC": 0,
+        "Unk10": 0,
+        "ItemFile": f"{k}.bin",
+        "DesignFile": None,
+        "NpcFile": None,
+        "Paper": stationery[k],
+        "Letters": {},
+    }
+    dic["Letters"]["UsEnglish"] = {
+        "Header": "",
+        "Body": "",
+        "Footer": "",
+        "Sender": "",
+    }
+    with open(f"{k}.txt", "r") as f:
         readlines = f.readlines()
 
-        i = 0
-        j = 0
-
-        for line in readlines:
-            i += 1
-        
-        for line in readlines:
+        i = sum(1 for _ in readlines)
+        for j, line in enumerate(readlines):
             if j == 0:
                 dic["Letters"]["UsEnglish"]["Header"] = line.replace("\n", "").replace("\\n", "\n")
 
@@ -104,8 +101,6 @@ for k in sorted(stationery.keys()):
             else:
                 dic["Letters"]["UsEnglish"]["Footer"] = "RiiConnect24"
 
-            j += 1
-
         dic["Letters"]["UsEnglish"]["Body"] = dic["Letters"]["UsEnglish"]["Body"].replace("\n\n", "")
         dic["Letters"]["UsEnglish"]["Sender"] = "RiiConnect24"
 
@@ -114,6 +109,6 @@ for k in sorted(stationery.keys()):
         dic["Letters"]["EuEnglish"]["Body"] = dic["Letters"]["UsEnglish"]["Body"]
         dic["Letters"]["EuEnglish"]["Footer"] = dic["Letters"]["UsEnglish"]["Footer"]
         dic["Letters"]["EuEnglish"]["Sender"] = dic["Letters"]["UsEnglish"]["Sender"]
-    
-    with open(k + ".json", "w") as f:
+
+    with open(f"{k}.json", "w") as f:
         json.dump(dic, f, indent=1)
